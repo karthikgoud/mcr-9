@@ -1,0 +1,27 @@
+.navItemCont {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 0.5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+  color: #509ecf;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 0.5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.navItemCont:hover {
+  color: #509ecf;
+}
+
+.icon {
+  padding-right: 1rem;
+}

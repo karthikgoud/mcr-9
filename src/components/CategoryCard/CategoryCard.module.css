@@ -1,0 +1,19 @@
+.categoryCardCont {
+  /* border: solid; */
+  width: 210px;
+  height: max-content;
+}
+
+.categoryCardCont:hover {
+  box-shadow: 1px 1px 5px gray;
+  cursor: pointer;
+}
+
+.categoryCardCont img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.categoryCardCont h3 {
+  padding: 0.5rem;
+}

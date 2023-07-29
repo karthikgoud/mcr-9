@@ -1,0 +1,31 @@
+.homeCont {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 220px 2fr 1fr;
+  gap: 1rem;
+}
+
+header {
+  padding: 1rem 0;
+}
+
+nav {
+  padding-top: 60px;
+  grid-column: 1/2;
+}
+
+main {
+  grid-column: 2/3;
+}
+
+.categoryCont {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mainVideoCont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

@@ -1,0 +1,85 @@
+.singleVideoCont {
+  /* border: solid; */
+  margin-top: 1rem;
+  position: relative;
+}
+
+.videoDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.videoTitleCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.videoTitleCont img {
+  border-radius: 50%;
+}
+
+.singleVideoIconCont {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.notesCont {
+  padding-top: 1rem;
+}
+
+.notesModal {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.notesModal button {
+  cursor: pointer;
+}
+
+.notesModal input {
+  padding: 1rem;
+}
+
+.noteList {
+  list-style-type: none;
+}
+
+.noteCont {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  padding: 0.3rem 0;
+  margin-left: 0.6rem;
+}
+
+.noteCont div:nth-child(2) {
+  cursor: pointer;
+}
+
+.playlistItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.playListCont {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.playlistForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

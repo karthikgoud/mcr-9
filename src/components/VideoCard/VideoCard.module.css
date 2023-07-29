@@ -1,0 +1,45 @@
+.videoCardCont {
+  width: 220px;
+  height: max-content;
+  position: relative;
+}
+
+.videoCardCont:hover {
+  box-shadow: 1px 1px 5px gray;
+  cursor: pointer;
+}
+
+.videoCardCont img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.videoDetails img {
+  border-radius: 50%;
+}
+
+.videoDetails {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.videoDetails h4 {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.videoDetails p {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.watchLaterIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  padding: 0.5rem;
+  border-bottom-left-radius: 50%;
+  font-size: 1.3rem;
+}

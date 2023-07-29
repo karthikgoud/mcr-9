@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+}
+
+.mainVideoCont {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filterInput input {
+  text-align: center;
+  padding: 0.7rem;
+  min-width: 100%;
+  border: none;
+  outline: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  font-size: 1.2rem;
+}

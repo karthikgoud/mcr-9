@@ -1,0 +1,30 @@
+.videoCardCont {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* .imgCont {
+  width: 100%;
+} */
+
+.imgCont img {
+  width: 130px;
+  object-fit: cover;
+}
+
+.videoCardCont p {
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
+  color: #124867;
+}
+
+.videoCardCont p:nth-child(2) {
+  opacity: 0.6;
+}
+
+.videoDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
